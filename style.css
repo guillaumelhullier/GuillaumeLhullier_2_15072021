@@ -9,7 +9,8 @@ header{
 }
 
 header img{
-    height: 50px;   
+    height: 50px;
+    padding-top: 20px;   
 }
 ul{
     display: flex;    
@@ -17,15 +18,13 @@ ul{
 }
 ul li{
     margin-right: 20px;
+    padding-top: 20px;
 }
 .bleuclair{
     color: #deebff; 
     border-top-style: solid;
     border-top-width: 1px;
-    border-top-color: #deebff;
-    margin-top: 0px;
-    padding-top: 0px;
-      
+    border-top-color: #deebff; 
 }
 .bleufonce{
     color: #0065fc;
