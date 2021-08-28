@@ -36,6 +36,42 @@ ul li{
 .mobile {
     display: none;
 }
+/*Codage de l'article*/
+.adestok{
+    display: flex;
+    list-style: none;        
+    width: 30%;
+    margin-top: 40px;
+    }
+.marker{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    background-color: #deebff;
+    width: 10%;
+    border-radius: 10px 0px 0px 10px;
+}
+.marseille{
+    height: 60px;  
+    padding-top: 10px;
+    font-weight: bold;
+}
+.recherche{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    background-color: #0065fc;
+    color: white; 
+    width: 30%;
+    margin-left: 50px;
+    border-radius: 0px 10px 10px 0px;
+    font-weight: bold;
+}
+.amobile{
+    display: none;
+}
 /*Ceci est mon responsive*/
 @media screen and ( max-width: 380px)
 {
@@ -49,6 +85,7 @@ ul li{
     }  
     .hebergement{
         width: 50%;
+        text-align: center;
     }
 
     .inscrire{
@@ -73,4 +110,29 @@ ul li{
         border-bottom-color: #deebff;
         padding-bottom: 20px;
     }
-}
+    .adestok{
+        display: none;
+    }
+    /*Codage du responsive article*/
+    .amobile{
+        display: flex;
+        justify-content: space-around;
+        list-style: none;
+        margin-top: 20px;        
+    }
+    .markermobile{
+        background-color: #deebff;
+        border-radius: 10px 10px 10px 10px;
+    }
+    .recherchemobile{
+        display: flex; 
+        justify-content: center;       
+        color: white;
+        background-color: #0065fc;
+        width: 30px;
+        border-radius: 20px 20px 20px 20px;
+    }
+    .marseillemobile{
+        font-weight: bold;
+    }
+    }
