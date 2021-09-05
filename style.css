@@ -1,44 +1,41 @@
 body {
-    margin: none;
+    margin: 0px;
     font-family:"raleway", sans-serif ;
+    background-color:#ffffff;
 }
-/*ceci est mon header*/
-#destok
-{
+/*Header Destok*/
+header{
     display: flex;
     justify-content: space-between;
     margin-top: 0px;
-
-}    
-header img{
-    height: 50px; 
-    padding-top: 20px;  
 }
-ul{    
-    display: flex;
+.navigation{ 
+    display: flex;           
     list-style: none;   
-    margin-right: none; 
+    margin-right: 10px;      
 }
-ul li{
-    margin-right: 20px;
+.nav1{
+    color: #deebff;
+    border-top-style: solid;     
+    margin-right: 50px; 
+    padding-top: 20px;    
+}
+.nav2{
+    margin-right: 50px;
     padding-top: 20px;
 }
-.bleuclair{
-    color: #deebff; 
-    border-top-style: solid;
-    border-top-width: 2px;
-    border-top-color: #deebff;   
-       
+.nav3{
+    color: #0065fc;
+    padding-top: 20px;
 }
-.bleufonce{
-    color: #0065fc;    
-}
-.mobile {
-    display: none;
+
+.headermobile{
+    display: none;    
 }
 /*Codage de l'article*/
 .adestok{
     display: flex;
+    align-items: center;
     list-style: none;        
     width: 30%;
     margin-top: 40px;
@@ -53,9 +50,12 @@ ul li{
     border-radius: 10px 0px 0px 10px;
 }
 .marseille{
-    height: 60px;  
-    padding-top: 10px;
     font-weight: bold;
+    border-style: solid;
+    border-color: #15c6ff;
+    border-width: 1px;  
+    padding-top: 10px;  
+    padding-bottom: 10px;
 }
 .recherche{
     display: flex;
@@ -64,75 +64,160 @@ ul li{
     height: 40px;
     background-color: #0065fc;
     color: white; 
-    width: 30%;
-    margin-left: 50px;
+    width: 30%;    
     border-radius: 0px 10px 10px 0px;
     font-weight: bold;
 }
+.icone{ 
+    display: flex;   
+    font-weight: bold;  
+    width: 70%;
+    justify-content: space-between; 
+    padding-top: 20px;   
+}
+.iconea{
+    margin-right: 10px;
+    color: #0065fc;
+    border-radius: 50px;
+    background-color: #15c6ff;
+    padding: 3px;
+}
+.contour{
+    border-style: solid;
+    border-color:#0065fc ;
+    border-radius: 50px;
+    border-width: 2px;
+    padding-right: 5px;
+}
+.infoa{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    width: 42%;
+}
+.infob{
+    border-style: solid;    
+    border-radius: 50px;
+    padding-left: 5px;
+    padding-right: 5px;
+    border-width: 1px;
+}
+/*Main Section3*/
+.sectionmain3{
+    display: flex;
+    justify-content: space-around;    
+}
+.sectionmain3div1 img{
+    width: 300px;
+    height: 350px; 
+    border-radius: 10px 10px 0px 0px;     
+}
+.sectionmaindiv2div1{
+    margin-top: 20px;    
+}
+.sectionmain3div2div2{
+    margin-top: 50px;
+}
+.sectionmaindiv2div1 img{
+    width: 300px;
+    height: 200px;
+}
+.sectionmain3div2div2{
+    border-radius: 10px 10px 10px 10px;
+    box-shadow: 2px 2px 20px #deebff;
+}
+.sectionmain3div2div2 img{
+    width: 300px;
+    height: 100px;
+    border-radius: 10px 10px 0px 0px;
+}
+.sectionmain3div3{
+    margin-top: 20px;    
+    border-radius: 10px 10px 10px 10px;
+    box-shadow: 2px 2px 20px #deebff
+}
+.sectionmain3div3 img{
+    width: 300px;
+    height: 375px;
+    border-radius: 10px 10px 0px 0px;
+}
+.sectionmain3div4div1{
+    margin-top: 20px;   
+    border-radius: 10px 10px 10px 10px;
+    box-shadow: 2px 2px 20px #deebff;
+}
+.sectionmain3div4div1 img{
+    width: 300px;
+    height: 170px;
+    border-radius: 10px 10px 0px 0px;
+}
+.sectionmain3div4div2{
+    margin-top: 20px;
+}
+.sectionmain3div4div2{    
+    border-radius: 10px 10px 10px 10px;
+    border-top: none;
+    box-shadow: 2px 2px 20px #deebff;
+}
+.sectionmain3div4div2 img{
+    width: 300px;
+    height: 170px;
+    border-radius: 10px 10px 0px 0px;
+}
+/*Footer*/
+footer{
+    background-color: #f0f0f0;
+    width: 100%;
+}
+#footer-item{
+    display: flex;        
+ }
+footer ul{
+    list-style: none;
+    padding-left: 0px;   
+    padding-right: 120px;
+}
+.footerli{
+    font-weight: bold;
+} 
 .amobile{
+    display: none;    
+}  
+.headermobile{
     display: none;
 }
-/*Ceci est mon responsive*/
+/*Site web version responsive */
 @media screen and ( max-width: 380px)
+/*Header version mobile*/
 {
-    #destok{
-        display: none;
-    }
-    .mobile{
+    .headerdestok{
+        display: none;         
+    } 
+    .headermobile{
         display: flex;
-        justify-content: space-between;
-        margin-top: 10px;
-    }  
-    .hebergement{
-        width: 50%;
-        text-align: center;
-    }
-
-    .inscrire{
-        margin-top: 40px;
-        width: 50%;
-        text-align: right;      
-    
-    }
-    .heb{
-        color: #deebff;
-        border-bottom-style: solid;
-        border-bottom-width: 2px;
-        border-bottom-color: #0065fc;
-        padding-bottom: 20px;}
-    .ins{
+        justify-content: space-between;  
+        
+    } 
+    .headermobilediv1{
         color: #0065fc;
-    }        
-    .act{
         text-align: center;
         border-bottom-style: solid;
-        border-bottom-width: 2px;
-        border-bottom-color: #deebff;
-        padding-bottom: 20px;
-    }
-    .adestok{
-        display: none;
-    }
-    /*Codage du responsive article*/
-    .amobile{
-        display: flex;
-        justify-content: space-around;
-        list-style: none;
-        margin-top: 20px;        
-    }
-    .markermobile{
-        background-color: #deebff;
-        border-radius: 10px 10px 10px 10px;
-    }
-    .recherchemobile{
-        display: flex; 
-        justify-content: center;       
-        color: white;
-        background-color: #0065fc;
-        width: 30px;
-        border-radius: 20px 20px 20px 20px;
-    }
-    .marseillemobile{
-        font-weight: bold;
-    }
-    }
+        border-bottom-color: #0065fc;
+        width: 50%;    
+   }
+   .headermobilediv2{
+       border-bottom-style: solid;
+       border-bottom-color: #deebff;
+       text-align: center;
+       width: 50%;
+   }
+   .headermobilediv2div1{
+       color: #0065fc;
+       font-weight: bold;
+   }
+   .headermobilediv2div2{
+       padding-top: 3px;
+   }   
+   }
+   
+   
