@@ -4,11 +4,6 @@ body {
     background-color:#ffffff;
 }
 /*Header Destok*/
-header{
-    display: flex;
-    justify-content: space-between;
-    margin-top: 0px;
-}
 .navigation{ 
     display: flex;           
     list-style: none;   
@@ -105,7 +100,6 @@ header{
 /*Main Section3*/
 .sectionmain3{
     display: flex;
-    justify-content: space-around;    
 }
 .sectionmain3div1 img{
     width: 300px;
