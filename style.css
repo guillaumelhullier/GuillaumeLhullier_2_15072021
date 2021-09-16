@@ -18,7 +18,8 @@ body {
     color: #deebff;
     border-top-style: solid;     
     margin-right: 50px; 
-    padding-top: 20px;    
+    padding-top: 20px;
+    text-decoration: blink;
 }
 .nav2{
     margin-right: 50px;
@@ -81,6 +82,10 @@ body {
     border-radius: 50px;
     border-width: 2px;
     padding-right: 5px;
+}
+.articlediv2div:hover{
+    text-decoration: underline;
+    color: red;
 }
 .articlediv2divi{
     margin-right: 10px;
@@ -174,6 +179,9 @@ body {
 }
 .section2 i{
     font-size: xx-small;
+}
+p span{
+    font-weight: bold;
 }
 /*Section 3 du Main*/
 .section3{
