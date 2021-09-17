@@ -343,7 +343,6 @@ footer ul{
 .headermobile{
     display: none;
 }
-/*Site web version responsive */
 @media screen and ( max-width: 380px)
 /*Header version mobile*/
 {
