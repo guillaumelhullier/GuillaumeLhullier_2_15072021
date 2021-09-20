@@ -9,7 +9,10 @@ body {
     justify-content: space-between;
     margin-top: 0px;
 }
-.navigation{ 
+.headerdestokdiv1{
+    margin-top: 30px;
+}
+.navul{ 
     display: flex;           
     list-style: none;   
     margin-right: 10px;      
@@ -21,24 +24,37 @@ body {
     padding-top: 20px;
     text-decoration: blink;
 }
+.nav1 a
+{
+    color: red;
+    text-decoration:none;
+}
 .nav2{
     margin-right: 50px;
     padding-top: 20px;
 }
+.nav2 a{
+    color: black;
+    text-decoration: none;
+}
 .nav3{
     color: #0065fc;
     padding-top: 20px;
-}
-.headermobile{
-    display: none;    
-}
-/*Codage de l'article*/
+} 
+  /*Codage de l'article*/
+
+  article{
+      border-style: solid;
+      border-color: black;
+  }
+
 .articlediv1{
     display: flex;
     align-items: center;
-    list-style: none;        
-    width: 30%;
+    list-style: none;     
     margin-top: 40px;
+    border-style: solid;
+    border-color: black;
     }
 .articlediv1div1{
     display: flex;
@@ -46,7 +62,7 @@ body {
     align-items: center;
     height: 40px;
     background-color: #deebff;
-    width: 10%;
+    width: 50px;
     border-radius: 10px 0px 0px 10px;
 }
 .articlediv1div2{
@@ -60,21 +76,24 @@ body {
 }
 .articlediv1div3{
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: center; 
+    align-items: center;   
+    text-align: center;
     height: 40px;
+    width: 100px;
     background-color: #0065fc;
-    color: white; 
-    width: 30%;    
+    color: white;      
     border-radius: 0px 10px 10px 0px;
     font-weight: bold;
 }
 .articlediv2{ 
-    display: flex;   
-    font-weight: bold;  
-    width: 70%;
-    justify-content: space-between; 
+    display: flex; 
+    flex-wrap: wrap;  
+    font-weight: bold;    
+    justify-content: space-around; 
     padding-top: 20px;   
+    border-style: solid;
+    border-color: black;
 }
 .articlediv2div{
     border-style: solid;
@@ -86,6 +105,7 @@ body {
 .articlediv2div:hover{
     text-decoration: underline;
     color: red;
+    cursor: pointer;
 }
 .articlediv2divi{
     margin-right: 10px;
@@ -96,14 +116,13 @@ body {
 }
 .articlediv3{
     display: flex;
-    justify-content: space-between;    
-    width: 45%;
+    justify-content: left;
     border-color: black;
     border-style: solid;
     margin-top: 30px;
 }
-.articlediv1div4{
-    display: none;
+.articlediv3div1{
+    color: #0065fc;
 }
 .articlediv3i{
     border-style: solid;    
@@ -111,9 +130,6 @@ body {
     padding-left: 5px;
     padding-right: 5px;
     border-width: 1px;
-}
-.articlemobile{
-    display: none;
 }
 /*Section 1 du Main*/
 .section1{
@@ -242,11 +258,10 @@ p span{
 }
 /*Section4 du Main*/
 .section4{
+    margin-top: 20px;
     margin-bottom: 20px;
 }
-.section4div1{
-    border-style: solid;
-    border-color: black;    
+.section4div1{        
     display: flex;
     justify-content: space-around;
 }
@@ -340,41 +355,123 @@ footer ul{
 .footerc{   
     margin-left: 10px;
 }
-.headermobile{
-    display: none;
+
+/*Site web version responsive */
+@media screen and ( min-width: 991px)
+{   
+    .articlediv1div3div2{
+        display: none;        
+    }
+    footer{
+        display: flex;
+        justify-content: space-around;
+    }
 }
-@media screen and ( max-width: 380px)
-/*Header version mobile*/
+@media screen and ( min-width: 390px)
+{
+    .headermobile{
+        display: none;
+    }
+}
+@media screen and (max-width: 990px) {
+    .articlediv1div3div1{
+        display: none;
+    }
+    .articlediv1div3{
+        width: 40px;
+        border-radius: 10px 10px 10px 10px;        
+    }    
+}
+@media screen and (max-width: 875px)
+{
+    .section2{
+        height: 600px;
+    }
+    .section3div2{
+        margin-top: 100px;
+    }
+}
+@media screen and (max-width: 870px)
+{
+    
+    .section4div1{
+            display: flex;
+            flex-wrap: wrap;
+            margin: auto;
+        }
+    .section4div1a{
+            font-size: smaller;
+    }
+    .section4div2{
+        margin-top: 50px;
+    }
+    .section4div6{
+        margin-top: 20px;
+    }
+}
+@media screen and ( max-width: 770px)
+{
+    .section3div5a{
+        font-size: xx-small;
+    }
+    .section3div5a p{
+        font-size: xx-small;
+    }
+}
+@media screen and (  max-width : 670px)
+{
+    .section3div1 h2{
+        font-size: smaller;
+    }
+}
+@media screen and ( max-width : 605 px)
+{
+    .section3div1{
+        font-size: x-large;
+    }
+}
+
+@media screen and ( max-width :600px)
+{
+    .section2{
+        height: 1050px;
+        width: 60%;
+        margin-right: 10px;
+    }
+    .section3{
+        width: 50%;        
+    }
+    .section3div1{
+        margin-top: 100px;
+    }
+}
+@media screen and ( max-width : 450 px)
+ {
+    .section1{
+        width: 600px;
+    }    
+}
+@media screen and ( max-width: 389px)
 {
     .headerdestok{
-        display: none;         
-    }     
-    .headermobile{
-    display: flex;
-     justify-content: space-between;         
-    } 
-    .headermobilediv1{
-        color: #0065fc;
-        text-align: center;
-        border-bottom-style: solid;
-        border-bottom-color: #0065fc;
-        width: 50%;    
-   }
-   .headermobilediv2{
-       border-bottom-style: solid;
-       border-bottom-color: #deebff;
-       text-align: center;
-       width: 50%;
-   }
-   .headermobilediv2div1{
-       color: #0065fc;
-       font-weight: bold;
-   }
-   .headermobilediv2div2{
-       padding-top: 3px;
-   }    
-   }
-   
+        display: none;
+    }
+}
+
+
+
+           
+    
+
+
+    
+
+
+
+
+
+
+ 
 
    
    

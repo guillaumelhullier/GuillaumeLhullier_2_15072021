@@ -15,11 +15,11 @@
 <body>
 <!--Header du PC-->
     <header class="headerdestok">
-        <div>          
+        <div class="headerdestokdiv1">          
         <img  src="logo/Reservia.svg" alt="logo reservia">
         </div>     
         <nav>     
-            <ul class="navigation">
+            <ul class="navul">
                 <li class="nav1"><a href="#hebergement">Hébergements</a></li>
                 <li class="nav2"><a href="#activite">Activités</a></li>
                 <li class="nav3">S'inscrire</li>
@@ -30,14 +30,14 @@
     <header class="headermobile">
         <div class="headermobilediv1">
             <img src="./logo/Reservia.svg" alt="logo Réservia">
-            <p class="headermobilediv1div2">Hébergements</p>
+            <p class="headermobilediv1div2"><a href="#hebergement">Hébergements</a></p>
         </div>
         <div class="headermobilediv2">
             <div>
                 <p class=headermobilediv2div1>S'inscrire</p>
             </div>
             <div class="headermobilediv2div2">
-                <p>Activités</p>
+                <p><a href="#activite">Activités</a></p>
             </div>
         </div>
         </header>
@@ -55,13 +55,15 @@
                 <i class="fa fa-map-marker" aria-hidden="true"></i>
                 </div>
                 <div class="articlediv1div2">
-                    <form>
-                    Marseille,France
-                    </form>
+                    <input type="text" value="Marseille, France" />                                       
                 </div>
                 <div class="articlediv1div3">
-                    <p>Rechercher </p>                
-                    <i class="fa fa-search" aria-hidden="true"></i>
+                    <div class="articlediv1div3div1">
+                    <p>Rechercher </p>
+                    </div>
+                    <div class="articlediv1div3div2">                
+                    <i class="fa fa-search" aria-hidden="true" ></i>
+                    </div>
                 </div>               
             </div> 
             <div class="articlediv2">                                 
@@ -84,7 +86,7 @@
                 </div>
             </div>                 
             <div class="articlediv3">
-                <div>               
+                <div class="articlediv3div1">               
                 <i class="articlediv3i fa fa-info" aria-hidden="true"></i>
                 </div>
                 <div>                    
@@ -255,7 +257,7 @@
                         <a href="page.html"><img src="./hebergements/4_small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg" alt="Hôtel Le soleil du matin" class="section3img"></a>
                     </div>
                     <div class="section3div4">
-                        <div>
+                        <div class="section3div5a">
                             <h4>Hôtel Le soleil du matin</h4>
                             <p>Nuit à partir de 128€</p>
                         </div>
@@ -283,7 +285,7 @@
                         <a href="page.html"><img src="./hebergements/4_small/aw-creative-VGs8z60yT2c-unsplash.jpg" alt="Au coeur de l'eau Chambres d'hôtes" class="section3img"></a>
                     </div>
                     <div>
-                        <div>
+                        <div class="section3div5a">
                             <h4>Au coeur de l'eau</h4>
                             <h4>Chambres d'hôtes</h4>
                             <p>Nuit à partir de 71€</p>
@@ -312,7 +314,7 @@
                         <a href="page.html"></a><img src="./hebergements/4_small/febrian-zakaria-sjvU0THccQA-unsplash.jpg" alt="Hôtel Tout bleu et Blanc " class="section3img"></a>
                     </div>
                     <div>
-                        <div>
+                        <div class="section3div5a">
                             <h4>Hôtel Tout bleu et</h4>
                             <h4>Blanc</h4>
                             <p>Nuit à partir de 68€</p>
@@ -343,7 +345,7 @@
     <section class="section4">        
         <div class="section4div1">
             <div>
-                <div>
+                <div class="section4div1a">
                 <h2 id="activite">Activités à Marseille</h2>
                 </div>
                 <div class="section4div2">                
