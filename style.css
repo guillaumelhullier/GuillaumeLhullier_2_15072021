@@ -44,18 +44,13 @@ body {
 } 
   /*Codage de l'article*/
 
-  article{
-      border-style: solid;
-      border-color: black;
-  }
+  
 
 .articlediv1{
     display: flex;
     align-items: center;
     list-style: none;     
-    margin-top: 40px;
-    border-style: solid;
-    border-color: black;
+    margin-top: 40px;    
     }
 .articlediv1div1{
     display: flex;
@@ -67,9 +62,7 @@ body {
     border-radius: 10px 0px 0px 10px;
 }
 .articlediv1div2{
-    font-weight: bold;
-    border-style: solid;
-    border-color: #15c6ff;
+    font-weight: bold;    
     border-width: 1px;  
     padding-top: 10px;  
     padding-bottom: 10px;
@@ -92,9 +85,7 @@ body {
     flex-wrap: wrap;  
     font-weight: bold;    
     justify-content: space-around; 
-    padding-top: 20px;   
-    border-style: solid;
-    border-color: black;
+    padding-top: 20px;     
 }
 .articlediv2div{
     border-style: solid;
@@ -117,9 +108,7 @@ body {
 }
 .articlediv3{
     display: flex;
-    justify-content: left;
-    border-color: black;
-    border-style: solid;
+    justify-content: left;    
     margin-top: 30px;
 }
 .articlediv3div1{
@@ -144,9 +133,7 @@ input{
 }
 
 /* Section 2 du Main*/
-.section2{
-    border-style: solid;
-    border-color: black;
+.section2{    
     width: 60%;
     background-color: #deebff;
     border-radius: 20px;
@@ -160,9 +147,7 @@ input{
     justify-content: space-around;
     margin-top: 50px;    
 }
-.section2div2{
-    border-style: solid;
-    border-color: black;
+.section2div2{    
     background-color: #ffffff;
     width: 175px;
     border-radius: 10px 10px 10px 10px;
@@ -180,9 +165,6 @@ input{
 }
 .section2p{
     margin: 0px;
-}
-.section2 h2{
-    font-size: medium;
 }
 .section2img{
     border-radius: 10px 10px 0px 0px;
@@ -205,9 +187,7 @@ input{
     font-weight: bold;
 }
 /*Section 3 du Main*/
-.section3{
-    border-style: solid;
-    border-color: black;
+.section3{    
     width: 30%;
     background-color: #deebff;
     border-radius: 10px 10px 10px 10px;
@@ -229,9 +209,7 @@ input{
     font-size: x-large;
 }
 .section3div3{
-    display: flex;
-    border-color: black; 
-    border-style: solid;   
+    display: flex;      
     background-color: #ffffff;
     border-radius: 10px 10px 10px 10px;
     width: 90%;
@@ -269,46 +247,32 @@ input{
 }
 .section4div1{        
     display: flex;
-    justify-content: space-around;
-    border-style: solid;
-    border-color: black;
+    justify-content: space-around;    
 }
-.section4div2{
-    border-color: black;
-    border-style: solid;
+.section4div2{    
     border-radius: 10px 10px 10px 10px;
     box-shadow: 2px 2px 20px #deebff;
     width: 200px;
 }
-.section4div3{
-    border-color: black;
-    border-style: solid;
+.section4div3{    
     border-radius: 10px 10px 10px 10px;
     box-shadow: 2px 2px 20px #deebff;
     margin-bottom: 20px;
 }
-.section4div4{
-    border-color: black;
-    border-style: solid;
+.section4div4{    
     border-radius: 10px 10px 10px 10px;
     box-shadow: 2px 2px 20px #deebff;
 }
-.section4div5{
-    border-color: black;
-    border-style: solid;
+.section4div5{    
     border-radius: 10px 10px 10px 10px;
     box-shadow: 2px 2px 20px #deebff;
 }
-.section4div6{
-    border-color: black;
-    border-style: solid;
+.section4div6{    
     border-radius: 10px 10px 10px 10px;
     box-shadow: 2px 2px 20px #deebff;
     margin-bottom: 20px;
 }
-.section4div7{
-    border-color: black;
-    border-style: solid;
+.section4div7{    
     border-radius: 10px 10px 10px 10px;
     box-shadow: 2px 2px 20px #deebff;
 }
@@ -355,9 +319,7 @@ footer ul{
     list-style: none;    
     padding-left: 10px;  
 }
-.footerb{
-    border-style: solid;
-    border-color: black;
+.footerb{    
     width: 250px;
 }
 .footerc{   
