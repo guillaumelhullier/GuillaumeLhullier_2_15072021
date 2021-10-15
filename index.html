@@ -6,6 +6,9 @@
     <link rel="stylesheet"  href="https://fonts.google.com/specimen/Raleway">      
     <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">   
     <meta charset="UTF-8">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
     <meta name="description" content="Le site reservia propose aux usagers de trouver des hébergements et des activités dans la ville de leur choix.">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -40,8 +43,7 @@
                 <p><a href="#activite">Activités</a></p>
             </div>
         </div>
-        </header>
-    </header> 
+    </header>    
     <!--Article pour trouver l'hébergement pour des vacances de rêve-->
     <article>
         <div>
@@ -66,15 +68,15 @@
                     </div>
                 </div>               
             </div> 
-            <div class="articlediv2">                                 
-                Filtres                                                                
-                <div class="articlediv2div">
-                <i class="articlediv2divi fas fa-money-bill-wave"></i>            
-                Economique
+            <div class="articlediv2"> 
+                Filtres                    
+                <div class="articlediv2div">                    
+                <i class="articlediv2divi fas fa-money-bill-wave"></i>        
+                Economique                    
                 </div>                                
                 <div class="articlediv2div">
                     <i class="articlediv2divi fa fa-child" aria-hidden="true"></i>
-                    Familial
+                Familial
                 </div>
                 <div class="articlediv2div">
                     <i class="articlediv2divi fa fa-heart" aria-hidden="true"></i>
@@ -97,11 +99,11 @@
 <!--Développement du main-->
 <main>
     <!--Première section du main-->
-    <section class="section1">
+    <div class="section1">
         <!--Deuxième section du main-->
         <section class="section2">
             <div>
-                <h2 id="hebergement">Hébergements à Marseille</h2>
+                <h2 id="hebergement" class="hebergement">Hébergements à Marseille</h2>
             </div>
             <div class="section2div1">
                 <div class="section2div2">
@@ -239,7 +241,7 @@
             </div>
             </div>
             <div>
-                <h3>Afficher plus</h3>
+                <h3 class="afficher">Afficher plus</h3>
             </div>
         </section>  
         <section class="section3">
@@ -311,7 +313,7 @@
                 </div>
                 <div class="section3div3">
                     <div>
-                        <a href="page.html"></a><img src="./hebergements/4_small/febrian-zakaria-sjvU0THccQA-unsplash.jpg" alt="Hôtel Tout bleu et Blanc " class="section3img"></a>
+                        <a href="page.html"><img src="./hebergements/4_small/febrian-zakaria-sjvU0THccQA-unsplash.jpg" alt="Hôtel Tout bleu et Blanc " class="section3img"></a>
                     </div>
                     <div>
                         <div class="section3div5a">
@@ -340,14 +342,12 @@
                 </div>         
             </div>                
         </section>
-    </section>  
+    </div>  
     <!--Main/Section 4-->
+    <h2 id="activite" class="activite">Activités à Marseille</h2>
     <section class="section4">        
         <div class="section4div1">
             <div>
-                <div class="section4div1a">
-                <h2 id="activite">Activités à Marseille</h2>
-                </div>
                 <div class="section4div2">                
                 <a href="page.html"><img src="./activites/4_small/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg" alt="Vieux Port" class="section4div2img"></a>
                 <h5>Vieux Port</h5>
